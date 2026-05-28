@@ -1,0 +1,5642 @@
+cc_prebuilt_library_shared {
+    name: "APUWareApusysServer",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/APUWareApusysServer.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "APUWareHmpServer",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/APUWareHmpServer.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "APUWareUtilsServer",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/APUWareUtilsServer.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "gc08a3sub2lane_mipi_raw_IdxMgr",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/gc08a3sub2lane_mipi_raw_IdxMgr.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "gc08a3sub2lane_mipi_raw_tuning",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/gc08a3sub2lane_mipi_raw_tuning.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "gc32e1sub_mipi_raw_IdxMgr",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/gc32e1sub_mipi_raw_IdxMgr.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "gc32e1sub_mipi_raw_tuning",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/gc32e1sub_mipi_raw_tuning.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "imx782_mipi_raw_IdxMgr",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/imx782_mipi_raw_IdxMgr.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "imx782_mipi_raw_tuning",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/imx782_mipi_raw_tuning.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libAcceReader",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libAcceReader.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libAlgoUtils",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libAlgoUtils.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBST3DDNS",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libBST3DDNS.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBSTAiScene",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libBSTAiScene.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBSTBeauty",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libBSTBeauty.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBSTBeautyAPK",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libBSTBeautyAPK.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBSTFaceDetction",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libBSTFaceDetction.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBSTHDRDETECT",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libBSTHDRDETECT.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBSTMultiExpoGainHDR",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libBSTMultiExpoGainHDR.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBSTSingleAIBokeh",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libBSTSingleAIBokeh.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBSTSingleAIDoc",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libBSTSingleAIDoc.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBstFaceUlkImpl",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libBstFaceUlkImpl.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBstStick2D",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libBstStick2D.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2257csmacromipiraw_E2EHDR_Preview",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_bf2257csmacromipiraw_E2EHDR_Preview.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2257csmacromipiraw_E2EHDR_Video",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_bf2257csmacromipiraw_E2EHDR_Video.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2257csmacromipiraw_Face_Capture",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_bf2257csmacromipiraw_Face_Capture.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2257csmacromipiraw_Flash_Capture",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_bf2257csmacromipiraw_Flash_Capture.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2257csmacromipiraw_HDR_Capture",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_bf2257csmacromipiraw_HDR_Capture.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2257csmacromipiraw_HDR_Preview",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_bf2257csmacromipiraw_HDR_Preview.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2257csmacromipiraw_HDR_Video",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_bf2257csmacromipiraw_HDR_Video.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2257csmacromipiraw_N3D_Capture",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_bf2257csmacromipiraw_N3D_Capture.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2257csmacromipiraw_N3D_Preview",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_bf2257csmacromipiraw_N3D_Preview.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2257csmacromipiraw_N3D_Video",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_bf2257csmacromipiraw_N3D_Video.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2257csmacromipiraw_P1_YUV",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_bf2257csmacromipiraw_P1_YUV.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2257csmacromipiraw_Scene_Capture",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_bf2257csmacromipiraw_Scene_Capture.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2257csmacromipiraw_Scene_Capture_4cell",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_bf2257csmacromipiraw_Scene_Capture_4cell.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2257csmacromipiraw_Scene_Preview",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_bf2257csmacromipiraw_Scene_Preview.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2257csmacromipiraw_Scene_Preview_4k",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_bf2257csmacromipiraw_Scene_Preview_4k.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2257csmacromipiraw_Scene_Preview_ZSD_Flash",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_bf2257csmacromipiraw_Scene_Preview_ZSD_Flash.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2257csmacromipiraw_Video_1080",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_bf2257csmacromipiraw_Video_1080.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_bf2257csmacromipiraw_Video_4k",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_bf2257csmacromipiraw_Video_4k.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc08a3sub2lanemipiraw_E2EHDR_Preview",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc08a3sub2lanemipiraw_E2EHDR_Preview.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc08a3sub2lanemipiraw_E2EHDR_Video",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc08a3sub2lanemipiraw_E2EHDR_Video.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc08a3sub2lanemipiraw_Face_Capture",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc08a3sub2lanemipiraw_Face_Capture.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc08a3sub2lanemipiraw_Flash_Capture",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc08a3sub2lanemipiraw_Flash_Capture.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc08a3sub2lanemipiraw_HDR_Capture",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc08a3sub2lanemipiraw_HDR_Capture.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc08a3sub2lanemipiraw_HDR_Preview",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc08a3sub2lanemipiraw_HDR_Preview.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc08a3sub2lanemipiraw_HDR_Video",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc08a3sub2lanemipiraw_HDR_Video.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc08a3sub2lanemipiraw_N3D_Capture",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc08a3sub2lanemipiraw_N3D_Capture.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc08a3sub2lanemipiraw_N3D_Preview",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc08a3sub2lanemipiraw_N3D_Preview.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc08a3sub2lanemipiraw_N3D_Video",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc08a3sub2lanemipiraw_N3D_Video.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc08a3sub2lanemipiraw_P1_YUV",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc08a3sub2lanemipiraw_P1_YUV.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc08a3sub2lanemipiraw_Scene_Capture",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc08a3sub2lanemipiraw_Scene_Capture.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc08a3sub2lanemipiraw_Scene_Capture_4cell",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc08a3sub2lanemipiraw_Scene_Capture_4cell.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc08a3sub2lanemipiraw_Scene_Capture_HDR",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc08a3sub2lanemipiraw_Scene_Capture_HDR.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc08a3sub2lanemipiraw_Scene_Preview",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc08a3sub2lanemipiraw_Scene_Preview.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc08a3sub2lanemipiraw_Scene_Preview_4k",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc08a3sub2lanemipiraw_Scene_Preview_4k.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc08a3sub2lanemipiraw_Scene_Preview_HDR",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc08a3sub2lanemipiraw_Scene_Preview_HDR.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc08a3sub2lanemipiraw_Scene_Preview_ZSD_Flash",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc08a3sub2lanemipiraw_Scene_Preview_ZSD_Flash.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc08a3sub2lanemipiraw_Video_1080",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc08a3sub2lanemipiraw_Video_1080.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc08a3sub2lanemipiraw_Video_4k",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc08a3sub2lanemipiraw_Video_4k.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc32e1submipiraw_E2EHDR_Preview",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc32e1submipiraw_E2EHDR_Preview.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc32e1submipiraw_E2EHDR_Video",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc32e1submipiraw_E2EHDR_Video.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc32e1submipiraw_Face_Capture",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc32e1submipiraw_Face_Capture.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc32e1submipiraw_Flash_Capture",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc32e1submipiraw_Flash_Capture.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc32e1submipiraw_HDR_Capture",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc32e1submipiraw_HDR_Capture.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc32e1submipiraw_HDR_Preview",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc32e1submipiraw_HDR_Preview.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc32e1submipiraw_HDR_Video",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc32e1submipiraw_HDR_Video.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc32e1submipiraw_N3D_Capture",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc32e1submipiraw_N3D_Capture.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc32e1submipiraw_N3D_Preview",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc32e1submipiraw_N3D_Preview.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc32e1submipiraw_N3D_Video",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc32e1submipiraw_N3D_Video.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc32e1submipiraw_P1_YUV",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc32e1submipiraw_P1_YUV.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc32e1submipiraw_Scene_Capture",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc32e1submipiraw_Scene_Capture.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc32e1submipiraw_Scene_Capture_4cell",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc32e1submipiraw_Scene_Capture_4cell.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc32e1submipiraw_Scene_Preview",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc32e1submipiraw_Scene_Preview.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc32e1submipiraw_Scene_Preview_4k",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc32e1submipiraw_Scene_Preview_4k.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc32e1submipiraw_Scene_Preview_ZSD_Flash",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc32e1submipiraw_Scene_Preview_ZSD_Flash.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc32e1submipiraw_Video_1080",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc32e1submipiraw_Video_1080.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_gc32e1submipiraw_Video_4k",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_gc32e1submipiraw_Video_4k.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_Coosea_Remosaic",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_Coosea_Remosaic.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_E2EHDR_Preview",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_E2EHDR_Preview.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_E2EHDR_Video",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_E2EHDR_Video.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_Face_Capture",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_Face_Capture.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_Flash_Capture",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_Flash_Capture.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_HDR_Capture",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_HDR_Capture.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_HDR_Preview",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_HDR_Preview.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_HDR_Reconfig_Preview",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_HDR_Reconfig_Preview.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_HDR_Reconfig_Video",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_HDR_Reconfig_Video.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_HDR_Video",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_HDR_Video.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_N3D_Capture",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_N3D_Capture.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_N3D_Preview",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_N3D_Preview.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_N3D_Video",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_N3D_Video.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_P1_YUV",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_P1_YUV.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_Scene_Capture",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_Scene_Capture.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_Scene_Capture_4cell",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_Scene_Capture_4cell.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_Scene_HDR",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_Scene_HDR.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_Scene_Preview",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_Scene_Preview.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_Scene_Preview_4k",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_Scene_Preview_4k.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_Scene_Preview_ZSD_Flash",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_Scene_Preview_ZSD_Flash.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_Scene_lowlight",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_Scene_lowlight.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_Scene_singleFrame",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_Scene_singleFrame.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_Video_1080",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_Video_1080.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_Video_1080_120",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_Video_1080_120.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_Video_1080_60",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_Video_1080_60.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_Video_4k",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_Video_4k.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCamera_imx782mipiraw_Video_Zoom_2x",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libCamera_imx782mipiraw_Video_Zoom_2x.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libDefaultFpsActor",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libDefaultFpsActor.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libFrameRecord",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libFrameRecord.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libHDRDetectUtils",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libHDRDetectUtils.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libHDRUtils",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libHDRUtils.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libJpgEncPipe",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libJpgEncPipe.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libMcClient",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libMcClient.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libMtkSpeechEnh",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libMtkSpeechEnh.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libNoFpsActor",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libNoFpsActor.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libOpenCL",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libOpenCL.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libSQLiteModule_VER_ALL",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libSQLiteModule_VER_ALL.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libSingleAIBokehUtils",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libSingleAIBokehUtils.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libTEECommon",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libTEECommon.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "lib_iir",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/lib_iir.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "lib_speech_enh",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/lib_speech_enh.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaal_cust",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libaal_cust.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaal_key",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libaal_key.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaal_mtk",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libaal_mtk.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaedv",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libaedv.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libalsautils-v31",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libalsautils-v31.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libapu_mdw",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libapu_mdw.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libapu_mdw_batch",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libapu_mdw_batch.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libapusys",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libapusys.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libapusys_edma",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libapusys_edma.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libarmnn",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libarmnn.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libarmnn_ndk.mtk.vndk",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libarmnn_ndk.mtk.vndk.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libasn1c_core",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libasn1c_core.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaudio_param_parser-vnd",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libaudio_param_parser-vnd.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaudiocompensationfilter_vendor",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libaudiocompensationfilter_vendor.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaudiocompensationfilterc",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libaudiocompensationfilterc.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaudiocomponentengine_vendor",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libaudiocomponentengine_vendor.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaudiocomponentenginec",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libaudiocomponentenginec.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaudiocustparam_vendor",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libaudiocustparam_vendor.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaudiodcrflt_vendor",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libaudiodcrflt_vendor.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaudiofmtconv",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libaudiofmtconv.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaudioloudc",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libaudioloudc.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaudioprimarydevicehalifclient",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libaudioprimarydevicehalifclient.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaudiosmartpamtk",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libaudiosmartpamtk.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaudiotoolkit_vendor",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libaudiotoolkit_vendor.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaurisysdemo",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libaurisysdemo.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libbessound_hd_mtk_vendor",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libbessound_hd_mtk_vendor.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libblisrc32_vendor",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libblisrc32_vendor.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libbluetooth_mtk",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libbluetooth_mtk.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libbluetooth_mtk_pure",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libbluetooth_mtk_pure.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libbstFaceUnlock",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libbstFaceUnlock.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libbstFilterCapture",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libbstFilterCapture.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libbst_beauty_algoutils",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libbst_beauty_algoutils.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libbstfaceid_ca",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libbstfaceid_ca.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libbt-vendor",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libbt-vendor.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libbwc",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libbwc.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcam.seninfn3d",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcam.seninfn3d.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamalgo.3dnr",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcamalgo.3dnr.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamalgo.dngop",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcamalgo.dngop.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamalgo.eis",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcamalgo.eis.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamalgo.fdft",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcamalgo.fdft.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamalgo.fsc",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcamalgo.fsc.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamalgo.gyro",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcamalgo.gyro.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamalgo.lmv",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcamalgo.lmv.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamalgo.n3d",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcamalgo.n3d.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamalgo.nr",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcamalgo.nr.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamalgo.platform",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcamalgo.platform.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamalgo.utility",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcamalgo.utility.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamalgo.warp",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcamalgo.warp.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcapctrl",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcapctrl.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcares_naptr",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcares_naptr.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcarrierconfig",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcarrierconfig.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libccci_util",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libccci_util.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcmdl",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcmdl.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcmdl_ndk.mtk.vndk",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcmdl_ndk.mtk.vndk.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcodec2_hidl@1.0-v33",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcodec2_hidl@1.0-v33.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcodec2_hidl@1.1-v33",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcodec2_hidl@1.1-v33.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcodec2_hidl@1.2-v33",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcodec2_hidl@1.2-v33.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcodec2_hidl_plugin-v33",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcodec2_hidl_plugin-v33.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcodec2_mtk_c2store",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcodec2_mtk_c2store.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcodec2_mtk_vdec",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcodec2_mtk_vdec.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcodec2_mtk_venc",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcodec2_mtk_venc.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcodec2_soft_common-v33",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcodec2_soft_common-v33.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcodec2_vndk-v33",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcodec2_vndk-v33.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcodec2_vpp_qt_plugin",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcodec2_vpp_qt_plugin.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcodec2_vpp_rs_plugin",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcodec2_vpp_rs_plugin.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcomposer_ext",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcomposer_ext.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libconnfem",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libconnfem.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcustom_nvram",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcustom_nvram.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcvsd_mtk",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libcvsd_mtk.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libdecrypt",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libdecrypt.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libdynamiclog",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libdynamiclog.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libfeature.face",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libfeature.face.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libfgauge_gm30",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libfgauge_gm30.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libfile_op",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libfile_op.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libforkexecwrap",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libforkexecwrap.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libformatter",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libformatter.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libfsmaudio",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libfsmaudio.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libged",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libged.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgf_ca",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libgf_ca.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgf_hal",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libgf_hal.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgoodixhwfingerprint",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libgoodixhwfingerprint.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgpu_aux",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libgpu_aux.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgpud",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libgpud.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgralloc_extra",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libgralloc_extra.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgralloc_metadata",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libgralloc_metadata.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgralloctypes_mtk",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libgralloctypes_mtk.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgwsd-ril",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libgwsd-ril.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgwsdv2-ril",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libgwsdv2-ril.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgwsdv3-ril",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libgwsdv3-ril.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgz_gp_client",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libgz_gp_client.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgz_uree",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libgz_uree.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libhdrvideo",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libhdrvideo.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libheichal",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libheichal.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libhevce_sb.ca7.android",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libhevce_sb.ca7.android.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libhfmanager",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libhfmanager.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libhfmanagerwrapper",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libhfmanagerwrapper.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libhwm",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libhwm.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libifcutils_mtk",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libifcutils_mtk.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libimagebuffer_wrapper",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libimagebuffer_wrapper.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libimgsensorca",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libimgsensorca.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libion_mtk",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libion_mtk.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libion_ulit",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libion_ulit.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libispcameraca",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libispcameraca.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjniBstAiDoc",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libjniBstAiDoc.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjniBstSticker",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libjniBstSticker.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjni_bstbeauty",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libjni_bstbeauty.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjni_bstfilter",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libjni_bstfilter.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjni_bstportrait",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libjni_bstportrait.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjni_pq",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libjni_pq.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjni_uvpanorama",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libjni_uvpanorama.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjpeg-alpha-oal_vendor",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libjpeg-alpha-oal_vendor.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjpeg-alpha_vendor",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libjpeg-alpha_vendor.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libkmsetkey",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libkmsetkey.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libksensor",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libksensor.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libladder",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libladder.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libminiui",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libminiui.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmipc",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmipc.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmmagent",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmmagent.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmml",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmml.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmnetlink_v104",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmnetlink_v104.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmorpho_GroupPhoto",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmorpho_GroupPhoto.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmorpho_MotionSensor",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmorpho_MotionSensor.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmorpho_Superlowlight",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmorpho_Superlowlight.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmorpho_superlowlight_algoutils",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmorpho_superlowlight_algoutils.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmsbc_mtk",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmsbc_mtk.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtk-fusion-ril-prop-vsim",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtk-fusion-ril-prop-vsim.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtk-ril",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtk-ril.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkares",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkares.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkcam.plugin.cap.3ddns",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkcam.plugin.cap.3ddns.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkcam.plugin.cap.aibokeh",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkcam.plugin.cap.aibokeh.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkcam.plugin.cap.beauty",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkcam.plugin.cap.beauty.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkcam.plugin.cap.filter",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkcam.plugin.cap.filter.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkcam.plugin.cap.groupphoto",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkcam.plugin.cap.groupphoto.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkcam.plugin.cap.hdr",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkcam.plugin.cap.hdr.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkcam.plugin.cap.superlowlight",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkcam.plugin.cap.superlowlight.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkcam.plugin.prv.aibokeh",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkcam.plugin.prv.aibokeh.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkcam.plugin.prv.aiscene",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkcam.plugin.prv.aiscene.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkcam.plugin.prv.hdrdetect",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkcam.plugin.prv.hdrdetect.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkcam.plugin.prv.motionsensor",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkcam.plugin.prv.motionsensor.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkcam_3rdparty.core",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkcam_3rdparty.core.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkcam_3rdparty.customer",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkcam_3rdparty.customer.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkcam_3rdparty.mtk",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkcam_3rdparty.mtk.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkcam_3rdparty",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkcam_3rdparty.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkcam_pipelinepolicy-aov",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkcam_pipelinepolicy-aov.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkconfig",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkconfig.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkconfigutils",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkconfigutils.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkcutils",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkcutils.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkhardware_legacy",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkhardware_legacy.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkisp_metadata",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkisp_metadata.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtklimiter_vendor",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtklimiter_vendor.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkmipc-ril",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkmipc-ril.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtknetcap",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtknetcap.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtknetutils",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtknetutils.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkproperty",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkproperty.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkrillog",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkrillog.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkrilutils",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkrilutils.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkshifter_vendor",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkshifter_vendor.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkspparser",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkspparser.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtksysutils",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtksysutils.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtktinyxml",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtktinyxml.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkutils",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmtkutils.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmvpu_cic_ci_compiler",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmvpu_cic_ci_compiler.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmvpu_clc_cl_compiler",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmvpu_clc_cl_compiler.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmvpu_clc_mvpu_debuginfo",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmvpu_clc_mvpu_debuginfo.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmvpu_clc_mvpu_elf",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmvpu_clc_mvpu_elf.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmvpu_clc_mvpu_utility",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmvpu_clc_mvpu_utility.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmvpu_clc_vpu_isa",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmvpu_clc_vpu_isa.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmvpu_config",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmvpu_config.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmvpu_engine",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmvpu_engine.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmvpu_engine_pub",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmvpu_engine_pub.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmvpu_pattern",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmvpu_pattern.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmvpu_pattern_pub",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmvpu_pattern_pub.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmvpu_runtime",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmvpu_runtime.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmvpu_runtime_pub",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmvpu_runtime_pub.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmvpuop_mtk_cv",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmvpuop_mtk_cv.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmvpuop_mtk_nn",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libmvpuop_mtk_nn.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libneuron_graph_delegate.mtk",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libneuron_graph_delegate.mtk.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libneuron_platform",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libneuron_platform.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libnir_neon_driver_ndk.mtk.vndk",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libnir_neon_driver_ndk.mtk.vndk.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libnpagent",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libnpagent.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libnpagent_server",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libnpagent_server.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libnvram",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libnvram.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libnvram_sec",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libnvram_sec.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libnxp_extamp_intf",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libnxp_extamp_intf.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libpixelflinger",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libpixelflinger.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libpqframework",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libpqframework.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libprizeem_sensor_jni",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libprizeem_sensor_jni.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libratconfig",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libratconfig.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libremosaic_wrapper",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libremosaic_wrapper.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libremosaiclib",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libremosaiclib.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "librgbwlightsensor",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/librgbwlightsensor.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "librilfusion",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/librilfusion.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "librmsclib1",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/librmsclib1.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "librpc",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/librpc.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "librt_extamp_intf",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/librt_extamp_intf.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsfplugin_ccodec_utils-v33",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libsfplugin_ccodec_utils-v33.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libspeech_enh_lib",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libspeech_enh_lib.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libspeechparser_vendor",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libspeechparser_vendor.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_bufferqueue_helper-ap3a",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libstagefright_bufferqueue_helper-ap3a.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libstorage_otp",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libstorage_otp.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsysenv",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libsysenv.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libtensorflowlite",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libtensorflowlite.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libtflite_mtk",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libtflite_mtk.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libthha",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libthha.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libtrm",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libtrm.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libudf",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libudf.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvcodec_oal",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libvcodec_oal.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvcodecdrv_header_stub",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libvcodecdrv_header_stub.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvendor.goodix.hardware.biometrics.fingerprint@2.1",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libverno",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libverno.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvia-ril",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libvia-ril.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libviagpsrpc",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libviagpsrpc.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libviamipc-ril",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libviamipc-ril.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvow_ap_test_aa",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libvow_ap_test_aa.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvow_ap_test_dd",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libvow_ap_test_dd.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvow_ap_test_ha",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libvow_ap_test_ha.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvow_ap_test_hh",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libvow_ap_test_hh.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvow_ap_test_nn",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libvow_ap_test_nn.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvpu",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libvpu.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libwpfa",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libwpfa.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libwvhidl",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/libwvhidl.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "nfc_nci.st21nfc.st",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/nfc_nci.st21nfc.st.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "s5k2lqsx_mipi_raw_IdxMgr",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/s5k2lqsx_mipi_raw_IdxMgr.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "s5k4h7_mipi_raw_IdxMgr",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/s5k4h7_mipi_raw_IdxMgr.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.apuware.apusys@2.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.apuware.apusys@2.1",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.apuware.hmp@1.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.apuware.utils@2.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.audio@6.1",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.audio@6.1.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.audio@7.1",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.audio@7.1.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.bluetooth.audio@2.1",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.bluetooth.audio@2.2",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.camera.atms@1.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.camera.atms@1.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.camera.bgservice@1.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.camera.bgservice@1.1",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.1.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.camera.ccap@1.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.camera.ccap@1.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.camera.frhandler@1.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.camera.frhandler@1.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.camera.isphal@1.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.camera.isphal@1.1",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.1.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.camera.lomoeffect@1.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.camera.postproc@1.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.camera.security@1.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.composer_ext@1.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.composer_ext@1.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.keymaster_attestation@1.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.keymaster_attestation@1.1",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.mmagent@1.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.mmagent@1.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.mmagent@1.1",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.mmagent@1.1.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.mms@1.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.mms@1.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.mms@1.1",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.mms@1.1.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.mms@1.2",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.mms@1.2.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.mms@1.3",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.mms@1.3.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.mms@1.4",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.mms@1.4.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.mms@1.5",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.mms@1.5.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.mms@1.6",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.mms@1.6.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.mtkradioex@2.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.mtkradioex@3.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.netdagent@1.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.neuropilot.agent@1.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.neuropilot.agent@1.1",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.1.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.neuropilot.agent@1.2",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.2.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.nvram@1.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.nvram@1.1",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.power@1.1",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.power@1.1.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.power@2.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.power@2.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.pq@2.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.pq@2.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.pq@2.1",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.pq@2.1.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.pq@2.10",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.pq@2.10.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.pq@2.11",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.pq@2.11.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.pq@2.12",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.pq@2.12.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.pq@2.13",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.pq@2.13.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.pq@2.14",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.pq@2.14.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.pq@2.15",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.pq@2.15.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.pq@2.2",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.pq@2.2.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.pq@2.3",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.pq@2.3.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.pq@2.4",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.pq@2.4.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.pq@2.5",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.pq@2.5.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.pq@2.6",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.pq@2.6.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.pq@2.7",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.pq@2.7.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.pq@2.8",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.pq@2.8.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.pq@2.9",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.pq@2.9.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.videotelephony@1.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.trustonic.tee.tui@1.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.trustonic.tee.tui@1.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.trustonic.tee@1.0",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.trustonic.tee@1.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.trustonic.tee@1.1",
+    owner: "advan",
+    strip: { none: true },
+    target: {
+        android_arm64: {
+            srcs: ["vendor/lib64/vendor.trustonic.tee@1.1.so"],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+

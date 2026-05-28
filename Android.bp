@@ -1310,6 +1310,16 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
+android_app_import {
+    name: "PriCamera",
+    apk: "system_ext/app/PriCamera/PriCamera.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+
 cc_prebuilt_library_shared {
     name: "APUWareApusysServer",
     owner: "advan",
